@@ -4,8 +4,4 @@
 
 a new Flutter project
 
-## Getting Started
-
----
-
-This project is a starting point for a Flutter application
+![Screenshot hello_world](images/01.png)
