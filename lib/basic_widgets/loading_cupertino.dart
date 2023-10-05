@@ -14,7 +14,7 @@ class MyLoadingCupertino extends StatelessWidget {
             child: Column(children: <Widget>[
               CupertinoButton(
                   child: const Text("Contoh button"), onPressed: () {}),
-                  const CupertinoActivityIndicator(),
+              const CupertinoActivityIndicator(),
             ])));
   }
 }

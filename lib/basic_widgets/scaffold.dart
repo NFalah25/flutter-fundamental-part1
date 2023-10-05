@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class MyScaffold extends StatelessWidget {
   const MyScaffold({Key? key}) : super(key: key);
 
@@ -64,7 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
         onPressed: _incrementCounter,
         tooltip: 'Increment Counter',
         child: const Icon(Icons.add),
-      ), 
+      ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
     );
   }

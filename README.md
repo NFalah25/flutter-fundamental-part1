@@ -41,7 +41,8 @@
 ![screenshot text widget](images/4.1.png)
 
 - Output:
-  ![screenshot text widget](images/4.1.2.png)
+
+![screenshot text widget](images/4.1.2.png)
 
 #### Langkah 2: Floating Action Button (FAB)
 
@@ -60,14 +61,16 @@ Button widget terdapat beberapa macam pada flutter yaitu ButtonBar, DropdownButt
 ![screenshot text widget](images/4.2.png)
 
 - Output:
-  ![screenshot text widget](images/4.2.1.png)
+
+![screenshot text widget](images/4.2.1.png)
 
 #### Langkah 3: Scaffold Widget
 
 Scaffold widget digunakan untuk mengatur tata letak sesuai dengan material design.
 
 - Ubah isi kode main.dart seperti berikut.
-  ![screenshot text widget](images/4.3.png)
+
+![screenshot text widget](images/4.3.png)
 
 #### Langkah 4: Dialog Widget
 
@@ -79,7 +82,8 @@ Dialog widget pada flutter memiliki dua jenis dialog yaitu AlertDialog dan Simpl
 ![screenshot text widget](images/4.4.2.png)
 
 - Output:
-  ![screenshot text widget](images/4.4.3.png)
+  
+![screenshot text widget](images/4.4.3.png)
 
 #### Langkah 5: Input and Selection Widget
 
@@ -90,7 +94,8 @@ Flutter menyediakan widget yang dapat menerima input dari pengguna aplikasi yait
 ![screenshot text widget](images/4.5.1.png)
 
 - Output:
-  ![screenshot text widget](images/4.5.2.png)
+
+![screenshot text widget](images/4.5.2.png)
 
 #### Langkah 6: Date and Time Pickers
 
@@ -102,4 +107,5 @@ Date and Time Pickers termasuk pada kategori input dan selection widget, berikut
 ![screenshot text widget](images/4.6.2.png)
 
 - Output:
-  ![screenshot text widget](images/4.6.3.png)
+
+![screenshot text widget](images/4.6.3.png)
