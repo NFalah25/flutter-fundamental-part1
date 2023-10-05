@@ -1,4 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:hello_world/basic_widgets/datetime.dart';
+import 'package:hello_world/basic_widgets/fab_widget.dart';
+import 'package:hello_world/basic_widgets/input.dart';
+import 'package:hello_world/basic_widgets/text_widget.dart';
+import 'package:hello_world/basic_widgets/image_widget.dart';
+import 'package:hello_world/basic_widgets/loading_cupertino.dart';
+import 'package:hello_world/basic_widgets/dialog.dart';
+import 'package:hello_world/basic_widgets/scaffold.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,6 +18,9 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    // return MyLoadingCupertino();
+    // return MyFabWidget();
+    // return const Dialog();
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
@@ -31,7 +42,13 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      // home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      // home: const MyLoadingCupertino(),
+      // home: const MyFabWidget(),
+      // home: const MyScaffold(),
+      // home: const MyDialog(),
+      // home: const MyInput(),
+      home: const MyDateTime(),
     );
   }
 }
@@ -105,9 +122,12 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text(
-              'You have pushed the button this many times:',
-            ),
+            const MyTextWidget(),
+            // const Image(image: AssetImage("images/logo_polinema.jpg")),
+            const MyImageWidget(),
+            // const MyLoadingCupertino(),
+            // const MyFabWidget(),
+
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
